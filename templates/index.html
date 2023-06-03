@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class = "container">
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Зоопарк</h1>
+      <p class="fs-5 text-body-secondary">Проведите время вместе с семьей в окружении наших животных!</p>
+    </div>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Разлечения</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Для детей и родителей<small class="text-body-secondary fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Десткая площадка, ресторан и несколько кафе</li>
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Перейти</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Животные</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Наши обитатели и их друзья<small class="text-body-secondary fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Мишки, слоны, зебры, капибары и многие другие</li>
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Перейти</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+     <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Расположение</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">Где мы находимся, как добраться<small class="text-body-secondary fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>г.Тула, Воскресенская, 45</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Перейти</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}

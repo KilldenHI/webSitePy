@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Как стать волонтером
+{% endblock %}
+
+{% block body %}
+<div class = "container">
+    <h1> Зарегистрируйся, укажи пожелания, если такие имеются, и мы с тобой свяжемся! :) </h1>
+     <form method="post">
+        <input type = "text" name="name" class="form-control" placeholder="Введите имя"><br>
+         <input type = "text" name="old" class="form-control" placeholder="Введите возраст"><br>
+         <input type = "text" name="city" class="form-control" placeholder="Введите свой город"><br>
+         <input type = "text" name="anim" class="form-control" placeholder="Введите животное, которое нравится вам больше всего"><br>
+         <input type = "text" name="text" class="form-control" placeholder="Оставьте свои пожелания"><br>
+         <input type = "text" name="email" class="form-control" placeholder="Введите email"><br>
+         <input type = "password" name="psw" class="form-control" placeholder="Введите пароль"><br>
+         <input type = "password" name="psw2" class="form-control" placeholder="Повторите пароль"><br>
+        <input type = "submit" class="btn btn-success" value="Регистрация">
+    </form>
+</div>
+{% endblock %}
